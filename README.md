@@ -28,6 +28,7 @@ CamVid (Cambridge-driving Labeled Video Database) is a road/driving scene unders
 2. Click on Create New API Token - It will download kaggle.json file on your machine.
 3. Upload that file here in code.
 
+
 # Train
 Trainer class Does the main part of code which is training model, plot the training process and save model each n epochs.
 
@@ -43,3 +44,13 @@ Does Each training step in `train_step` function and validation step in `val_ste
 *   You can set one of three `verboses` that prints info you want => 0 == nothing || 1 == model architecture || 2 == print optimizer || 3 == model parameters size.
 *   Each time you train model weights and plot(if `save_plots` == True) will be saved in `save_dir`.
 *   You can find a `configs` file in `save_dir` that contains some information about run. 
+
+
+# Results
+
+## Training Data
+![Train predicted](https://user-images.githubusercontent.com/47561760/195614321-1ac08aa5-8076-41ac-8b72-035d42cb98e2.png)
+
+## Validation Data
+![Validation predicted](https://user-images.githubusercontent.com/47561760/195614378-2056d9c5-7d7c-4e02-be3e-3d87e4bde7ef.png)
+
