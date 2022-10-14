@@ -12,6 +12,7 @@ The U-Net is an elegant architecture that solves most of the occurring issues. I
 
 [Paper Link](https://arxiv.org/abs/1505.04597v1)
 
+![image](https://user-images.githubusercontent.com/47561760/195845173-25e5f8ad-d80f-4280-a03b-2a03bdaf857a.png)
 
 We notice skip-connections that connect the previous outputs with the layers in the decoder blocks. This skip connection is a vital concept to preserve the loss from the previous layers so that they reflect stronger on the overall values. They are also scientifically proven to produce better results and lead to faster model convergence. In the final convolution block, we have a couple of convolutional layers followed by the last convolution layer. This layer has a filter of 2 with the appropriate function to display the resulting output. This final layer can be changed according to the desired purpose of the project you are trying to perform.
 
